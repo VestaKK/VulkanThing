@@ -12,7 +12,10 @@ SPV 	  := $(SHD_DIR)/vert.spv $(SHD_DIR)/frag.spv
 
 .PHONY: clean all run shaders
 
-all: $(BIN) $(SPV)
+all: dirs $(BIN) $(SPV)
+
+dirs:
+	mkdir -p bin
 
 shaders: $(SPV)
 
