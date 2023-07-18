@@ -1,1 +1,1 @@
-# VulkanThing Ongoing attempt to do vulkan stuff in C
+VulkanThing Ongoing attempt to do vulkan stuff in C
