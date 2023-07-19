@@ -15,7 +15,7 @@ SPV 	  := $(SHD_DIR)/vert.spv $(SHD_DIR)/frag.spv
 all: dirs $(BIN) $(SPV)
 
 dirs:
-	mkdir -p bin
+	-@mkdir -p bin
 
 shaders: $(SPV)
 
